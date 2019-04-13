@@ -7,7 +7,7 @@ Gen3 Data Commons
         :target: https://pypi.python.org/pypi/gen3
 
 .. image:: https://img.shields.io/travis/uc-cdis/gen3.svg
-        :target: https://travis-ci.org/uc-cdis/gen3
+        :target: https://travis-ci.com/uc-cdis/gen3
 
 .. image:: https://readthedocs.org/projects/gen3/badge/?version=latest
         :target: https://gen3.readthedocs.io/en/latest/?badge=latest
