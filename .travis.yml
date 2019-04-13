@@ -5,7 +5,7 @@ dist: xenial
 python:
   - 3.7
 
-install: pip install -U tox-travis tox-pipenv
+install: pip install -U 'tox<3.8' tox-travis tox-pipenv
 
 script: tox
 
