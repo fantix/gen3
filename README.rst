@@ -24,7 +24,8 @@ Gen3 is how data commons are made.
 
 
 * Free software: Apache Software License 2.0
-* Documentation: https://gen3.readthedocs.io.
+* Website: https://gen3.org
+* Documentation: https://gen3.readthedocs.io
 
 
 Features

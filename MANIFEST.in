@@ -2,7 +2,10 @@ include AUTHORS.rst
 include CONTRIBUTING.rst
 include HISTORY.rst
 include LICENSE
+include NOTICE
 include README.rst
+include Pipfile
+include Pipfile.lock
 
 recursive-include tests *
 recursive-exclude * __pycache__
