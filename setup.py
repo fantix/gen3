@@ -10,7 +10,15 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
-requirements = []
+requirements = [
+    "aiohttp",
+    "edgedb",
+    "jsonschema",
+    "ruamel.yaml",
+    "tartiflette",
+    "tartiflette-aiohttp",
+    "uvloop",
+]
 
 setup_requirements = ["pytest-runner"]
 
@@ -41,4 +49,5 @@ setup(
     url="https://github.com/uc-cdis/gen3",
     version="3.2.0",
     zip_safe=False,
+    entry_points=dict(console_scripts=["gen3=gen3.cli:main"]),
 )

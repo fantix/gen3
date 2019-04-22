@@ -15,6 +15,7 @@ pytest-runner = "~=4.2"
 Sphinx = "~=1.8"
 
 [packages]
+gen3server = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
